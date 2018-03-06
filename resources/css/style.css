@@ -64,13 +64,7 @@ nav a {
 
 .featured-tea {
   width: 1200px;
-  margin-top: 69px;
-}
-
-.featured-tea .tea-content {
-  display: inline-flex;
-  justify-content: center;
-  flex-wrap: wrap;
+  margin: 0 auto;
 }
 
 .tea-image {
@@ -87,9 +81,6 @@ nav a {
   width: 1200px;
 }
 
-.address {
-
-}
 
 .copyright {
   padding: 20px;
