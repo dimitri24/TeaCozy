@@ -1,0 +1,101 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+header {
+  background-color: black;
+  height: 69px;
+  width: 100%;
+  text-align: left;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  top: 0px;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav{
+  display: inline-flex;
+  position: absolute;
+  right: 20px;
+}
+
+.logo img {
+  height: 50px;
+  padding-left: 10px;
+  padding-top: 10px;
+  display: inline-flex;
+}
+
+nav a {
+  color: seashell;
+}
+
+.mission-content {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+}
+
+.image-content {
+  background-color: black;
+  width: 1200px;
+}
+
+.image-content h2 {
+  margin-top: 10px;
+}
+
+.image-content h4 {
+  margin-bottom: 10px;
+}
+
+.featured-tea {
+  width: 1200px;
+  margin-top: 69px;
+}
+
+.featured-tea .tea-content {
+  display: inline-flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.tea-image {
+  width: 300px;
+  height: 200px;
+}
+
+.locations-content {
+
+}
+
+.locations-content img {
+  height: 500px;
+  width: 1200px;
+}
+
+.address {
+
+}
+
+.copyright {
+  padding: 20px;
+  text-align: left;
+}
+
+footer {
+  height: 200px;
+}
