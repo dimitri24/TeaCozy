@@ -64,10 +64,15 @@ nav a {
 
 .featured-tea {
   width: 1200px;
-  margin: 0 auto;
+  padding: 10px;
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+
 }
 
-.tea-image {
+
+.image {
   width: 300px;
   height: 200px;
 }
@@ -79,6 +84,8 @@ nav a {
 .locations-content img {
   height: 500px;
   width: 1200px;
+  display: inline-flex;
+  flex-direction: row;
 }
 
 
