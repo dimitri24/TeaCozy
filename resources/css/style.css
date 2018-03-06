@@ -90,7 +90,14 @@ nav a {
   height: 300px;
   margin: 15px 40px;
   display: inline-flex;
+  text-align: center;
+}
+
+ul {
   list-style-type: none;
+  text-align: center;
+  position: relative;
+  margin: 10px 0;
 }
 
 
